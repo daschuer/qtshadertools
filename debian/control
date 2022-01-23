@@ -1,18 +1,17 @@
 Source: qt6-shadertools
 Section: libs
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Patrick Franz <deltaone@debian.org>
-Build-Depends: cmake (>= 3.18~),
-               debhelper-compat (= 13),
+Maintainer: Daniel Schürmann <daschuer@mixxx.org>
+Build-Depends: cmake,
+               debhelper-compat (= 12),
                libgl1-mesa-dev,
                libvulkan-dev [linux-any],
                ninja-build,
                pkg-config,
                pkg-kde-tools,
-               qt6-base-dev (>= 6.2.2+dfsg~),
-               qt6-base-private-dev (>= 6.2.2+dfsg~),
-Standards-Version: 4.6.0
+               qt6-base-dev (>= 6.2.2),
+               qt6-base-private-dev (>= 6.2.2),
+Standards-Version: 4.5.0
 Homepage: https://www.qt.io/developers/
 Rules-Requires-Root: no
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt6/qt6-shadertools.git

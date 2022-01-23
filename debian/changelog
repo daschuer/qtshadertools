@@ -1,11 +1,14 @@
-qt6-shadertools (6.2.2-1) experimental; urgency=medium
+qt6-shadertools (6.2.2-1) focal; urgency=medium
+
+  [ Daniel Schürmann ]
+  * Backport to Ubuntu Focal
 
   [ Patrick Franz ]
   * New upstream release (6.2.2).
   * Bump Qt B-Ds to 6.2.2.
   * Update installed files.
 
- -- Patrick Franz <deltaone@debian.org>  Thu, 02 Dec 2021 04:05:53 +0100
+ -- Daniel Schürmann <daschuer@mixxx.org>  Fri, 21 Jan 2022 09:24:12 +0100
 
 qt6-shadertools (6.2.1-2) experimental; urgency=medium
 
